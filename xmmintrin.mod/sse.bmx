@@ -159,6 +159,7 @@ Extern
 	Function _mm_stream_ps(mem_addr:Float Ptr,a:Float128)="void _mm_stream_ps(float* ,__m128 )!"
 	Function _mm_sub_ps:Float128(a:Float128,b:Float128)="__m128 _mm_sub_ps(__m128 ,__m128 )!"
 	Function _mm_sub_ss:Float128(a:Float128,b:Float128)="__m128 _mm_sub_ss(__m128 ,__m128 )!"
+	Function _MM_TRANSPOSE4_PS(row0:Float128,row1:Float128,row2:Float128,row3:Float128)="void _MM_TRANSPOSE4_PS (__m128 , __m128 , __m128 , __m128 )!"
 	Function _mm_ucomieq_ss:Int(a:Float128,b:Float128)="int _mm_ucomieq_ss(__m128 ,__m128 )!"
 	Function _mm_ucomige_ss:Int(a:Float128,b:Float128)="int _mm_ucomige_ss(__m128 ,__m128 )!"
 	Function _mm_ucomigt_ss:Int(a:Float128,b:Float128)="int _mm_ucomigt_ss(__m128 ,__m128 )!"
